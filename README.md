@@ -1,3 +1,6 @@
+Yoyo fork of the [Checkout SDK package](https://github.com/checkout/checkout-sdk-python) with a [fix](https://github.com/yoyowallet/checkout-sdk-python/commit/e9385d77b8d13abec34dec2532cf21e355b2b111) for structlog-compatible error logging.
+
+
 # Checkout.com Python SDK
 
 ![build-status](https://github.com/checkout/checkout-sdk-python/workflows/build-main/badge.svg)
