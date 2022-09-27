@@ -117,7 +117,7 @@ class ApiClient:
 
             response.raise_for_status()
         except HTTPError as err:
-            self._logger.error(err)
+            self._logger.error(str(err))
             raise CheckoutApiException(err.response) from err
         except OSError as err:
             error = err.strerror
